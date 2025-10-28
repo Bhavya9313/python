@@ -4,7 +4,7 @@ word_list = ["apple","mango","banana"]
 lives = 6
 chosen_word = random.choice(word_list)
 print("you have only 6 moves")
-print(chosen_word)
+print("chose only fruits name")
 
 display = []
 for i in range(len(chosen_word)):
@@ -29,5 +29,6 @@ while True:
     if '_' not in display:
         print("you win!")
         break
+
 
 
