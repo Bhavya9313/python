@@ -18,7 +18,7 @@ bidder_data = {} #bid means 'nilami me boli lagana
 
 while True:
     name = input("what is your name")
-    price = int(input("what is yor bid:"))
+    price = int(input("what is your bid:"))
     bidder_data[name]=price
     more_bidder = input("are there more bidders? type 'yes' or 'no'").lower()
 
@@ -27,4 +27,5 @@ while True:
         break 
 
     elif more_bidder == "yes":
+
         os.system("cls")  # to clear the screen
