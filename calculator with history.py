@@ -46,7 +46,7 @@ def calculate(user_input):
             return
         result = num1 / num2
     else:
-        print("invalid operator. use only + - / *")  
+        print(f"invalid operator. use only + - / * except {op}")  
         return
     
     if int(result)== result:
@@ -73,4 +73,5 @@ def main():
 main()
 
      
+
 
